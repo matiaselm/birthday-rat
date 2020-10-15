@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Input from './Input';
-import Music from './Music';
+import Input from './components/Input';
+import Music from './components/Music';
+import Lyrics from './components/Text';
 import rotta from './rotta.png';
 
 const App = () => {
@@ -24,10 +25,18 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <Input handleChange={handleChange} playName={playName} />
-        <img src={rotta} className="App-logo" alt="logo" />
-        <Music playName={playName} />
+        <div className="inputContainer">
+          <Music playName={playName} />
+          <Input handleChange={handleChange} playName={playName} />
+        </div>
       </header>
+      <Lyrics name={state} />
+
+      <div className="ratContainer">
+        <img src={rotta} className="App-logo" alt="logo" />
+        <img src={rotta} className="App-logo" alt="logo" />
+        <img src={rotta} className="App-logo" alt="logo" />
+      </div>
     </div>
   );
 }
