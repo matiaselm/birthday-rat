@@ -4,9 +4,10 @@ import ratList from '../ratList';
 const Music = (props) => {
     const [rat, setRat] = React.useState(0)
     const [audio, setAudio] = React.useState(new Audio(ratList[rat]))
+    const [playing, setPlaying] = React.useState(false)
 
     useEffect(() => {
-        if (rat != 0) {
+        if (rat !== 0) {
             props.playName()
         }
         setTimeout(() => play(rat), 300)
@@ -20,6 +21,7 @@ const Music = (props) => {
         console.log(`current rat: ${rat}`)
         if (index > ratList.length) {
             setRat(0)
+
         }
         setAudio(new Audio(ratList[index]))
         audio.play()
