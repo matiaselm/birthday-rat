@@ -1,3 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Source of the song used and the whole inspiration](https://www.youtube.com/watch?v=vdVnnMOTe3Q)
+![Halo 3 rat](https://i.redd.it/qvung4218tj51.png)
+
+[Source](https://www.youtube.com/watch?v=vdVnnMOTe3Q), the source of my inspiration
