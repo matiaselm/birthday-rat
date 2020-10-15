@@ -2,4 +2,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Halo 3 rat](https://i.redd.it/qvung4218tj51.png)
 
-[Source](https://www.youtube.com/watch?v=vdVnnMOTe3Q), the source of my inspiration
+The [Source](https://www.youtube.com/watch?v=vdVnnMOTe3Q) of my inspiration
