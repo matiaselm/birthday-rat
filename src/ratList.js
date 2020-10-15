@@ -24,6 +24,6 @@ import rat22 from './rats/rats22.mp3';
 import rat23 from './rats/rats23.mp3';
 import rat24 from './rats/rats24.mp3';
 
-const ratList = [rat1, rat2, rat3, rat4, rat5, rat6, rat7, rat8, rat9, rat10, rat11, rat12, rat13, rat14, rat15, rat17, rat18, rat19, rat20, rat21, rat22, rat23, rat24]
+const ratList = [rat1, rat2, rat3, rat4, rat5, rat6, rat7, rat8, rat9, rat10, rat11, rat12, rat13, rat14, rat15, rat16, rat17, rat18, rat19, rat20, rat21, rat22, rat23, rat24]
 
 export default ratList
